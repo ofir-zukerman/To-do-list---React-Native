@@ -1,5 +1,5 @@
 {
-  "name": "rn-first-app",
+  "name": "todolist-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -7,7 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "prettier": "prettier 'src/**/*.js'"
   },
   "dependencies": {
     "expo": "~43.0.0",
@@ -18,7 +19,8 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "prettier": "^2.4.1"
   },
   "private": true
 }
